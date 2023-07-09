@@ -10,3 +10,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.nav-style{
+    background-color: #34353E;
+}
+.body-container{
+    width: 80%;
+    margin: auto;
+}
+
+.grey-bg{
+    background-color: gainsboro;
+}
+
+.card-img-top{
+    height: 21vh;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container{
+    height: 7vh;
+    background-color: #34353E;
+    
+}
+
+@media (max-width: 360px) {
+    .cards-container{
+        display: block;
+    }
+    .menu-list{
+        display: none;
+    }
+    .card{
+        margin: 2%;
+    }
+    .body-container{
+        width: 87%;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .cards-container{
+        display: block;
+    }
+    .menu-list{
+        display: none;
+    }
+    .card{
+        margin: 2%;
+    }
+    .body-container{
+        width: 87%;
+        margin: auto;
+    }
+}
